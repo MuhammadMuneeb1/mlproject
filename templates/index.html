@@ -1,1 +1,37 @@
-<h1>Welcome to the Homepage</h1>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Predicting Student's Performance using Machine Learning (ML)</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f9f9f9;
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            color: #333;
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        a {
+            display: block;
+            text-align: center;
+            margin-top: 20px;
+            font-size: 18px;
+            color: #0074D9;
+            text-decoration: none;
+        }
+
+        a:hover {
+            color: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <h1>Welcome to the Homepage</h1>
+    <a href="{{ url_for('home') }}">Click here to Predict Student's Performance!</a>
+</body>
+</html>
